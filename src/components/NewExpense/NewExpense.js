@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "./NewExpense.css";
 import ExpenseForm from "./ExpenseForm.js";
 
@@ -13,6 +13,7 @@ const NewExpense = (props) => {
     
     props.onAddExpense(expenseData)
   }
+ 
 
   return (
     <div className="new-expense">
